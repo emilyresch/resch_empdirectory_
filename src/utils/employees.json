@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Emily Resch",
+    "image": "https://avatars2.githubusercontent.com/emilyresch",
+    "github": "emilyresch",
+    "position": "student"
+  },
+  {
+    "id": 2,
+    "name": "Phil Hurst",
+    "image": "https://avatars2.githubusercontent.com/pyhurst",
+    "github": "pyhurst",
+    "position": "student"
+  },
+  {
+    "id": 3,
+    "name": "Peter Blank",
+    "image": "https://avatars2.githubusercontent.com/blapete",
+    "github": "blapete",
+    "position": "student"
+  },
+  {
+    "id": 4,
+    "name": "CJ Palmerin",
+    "image": "https://avatars2.githubusercontent.com/cjpalmerin",
+    "github": "cjpalmerin",
+    "position": "student"
+  },
+  {
+    "id": 5,
+    "name": "Maura Parker",
+    "image": "https://avatars2.githubusercontent.com/mauraparker02",
+    "github": "mauraparker02",
+    "position": "student"
+  },
+  {
+    "id": 6,
+    "name": "Yna Mataya",
+    "image": "https://avatars2.githubusercontent.com/ymataya",
+    "github": "ymataya",
+    "position": "student"
+  },
+  {
+    "id": 7,
+    "name": "Rensy Aikara",
+    "image": "https://avatars2.githubusercontent.com/RensyAikara",
+    "github": "RensyAikara",
+    "position": "student"
+  },
+  {
+    "id": 8,
+    "name": "Kevin Nyugen",
+    "image": "https://avatars2.githubusercontent.com/ThaNinjaPower",
+    "github": "ThaNinjaPower",
+    "position": "student"
+  },
+  {
+    "id": 9,
+    "name": "Poornima Sewak",
+    "image": "https://avatars2.githubusercontent.com/poornimasewak",
+    "github": "poornimasewak",
+    "position": "instructor"
+  },
+  {
+    "id": 10,
+    "name": "Colin Goodale",
+    "image": "https://avatars2.githubusercontent.com/colingoodale",
+    "github": "colingoodale",
+    "position": "TA"
+  },
+  {
+    "id": 11,
+    "name": "Paul Cwik",
+    "image": "https://avatars2.githubusercontent.com/PCeeeZy",
+    "github": "PCeeeZy",
+    "position": "TA"
+  }
+]
