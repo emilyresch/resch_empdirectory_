@@ -1,22 +1,19 @@
 import React from "react";
 
-function Searchbar() {
+function Searchbar(props) {
     return (
         <div className="container">
-        <form className="search">
-      <div className="form-group">
-        <input
-          value=""
-          onChange=""
-          name="term"
-          list="term"
-          type="text"
-          className="form-control"
-          placeholder="Search..."
-        />
-      </div>
-    </form>
-    </div>
+            <div className="form-group">
+                <input
+                    value={props.search}
+                    onChange={props.searchEmployee}
+                    list="term"
+                    type="text"
+                    className="form-control"
+                    placeholder="Find an Employee..."
+                />
+            </div>
+        </div>
     );
 }
 

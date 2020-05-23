@@ -9,13 +9,16 @@ function Table() {
     return (
         <table>
             <TableHeader />
+            <tbody>
                 {employees.map((person) => (
                     <TableData image={person.image}
                         name={person.name}
                         github={person.github}
                         position={person.position}
+                        key={person}
                     />
                 ))}
+            </tbody>
         </table>
     );
 }
