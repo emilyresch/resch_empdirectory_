@@ -1,5 +1,10 @@
 table, th, td {
     border: 1px solid lightgray;
+    color:black;
+}
+
+th {
+    color: navy;
 }
 
 table {

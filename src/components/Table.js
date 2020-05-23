@@ -4,7 +4,6 @@ import TableData from "./TableData";
 import employees from "../utils/employees.json";
 import "./Table.css";
 
-
 function Table() {
     return (
         <table>
@@ -15,7 +14,7 @@ function Table() {
                         name={person.name}
                         github={person.github}
                         position={person.position}
-                        key={person}
+                        key={person.id}
                     />
                 ))}
             </tbody>

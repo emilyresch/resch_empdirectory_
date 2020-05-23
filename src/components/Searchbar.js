@@ -6,7 +6,7 @@ function Searchbar(props) {
             <div className="form-group">
                 <input
                     value={props.search}
-                    onChange={props.searchEmployee}
+                    onChange={props.handleInputChange}
                     list="term"
                     type="text"
                     className="form-control"

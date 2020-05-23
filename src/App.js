@@ -13,34 +13,53 @@ class App extends React.Component {
 
   componentDidMount() {
     document.title = "Employees"
-    // this.searchEmployee();
+
+    // if(!this.state.search){
+    //   console.log("hi");
+    // }
+
   }
 
-  searchEmployee = (event) => {
-    this.setState({ search: event.target.value })
+  handleInputChange = event => {
+    console.log(event.target.value);
+    
+    this.setState({ 
+      search: event.target.value 
+    })
   }
 
 
   render() {
     let filtered = employees.filter(
       person => {
-        return person.name.indexOf(this.state.search) !== -1;
+        return person.name.toLowerCase().indexOf(this.state.search) !== -1;
       });
+
+      console.log(filtered);
+
     return (
       <div className="app">
         <Header />
-        <Searchbar
+        {/* <Searchbar
         value={this.state.search}
-        onChange={this.searchEmployee}
-        />
+        onChange={this.handleInputChange}
+        /> */}
+        <div className="container">
+            <div className="form-group">
+                <input
+                    value={this.state.search}
+                    onChange={this.handleInputChange}
+                    list="term"
+                    type="text"
+                    className="form-control"
+                    placeholder="Search by Name..."
+                />
+            </div>
+        </div>
         <TableContainer>
           <div className="container">
             {filtered.map(person => {
-              return <TableData image={person.image}
-                name={person.name}
-                github={person.github}
-                position={person.position} 
-                key={person.id}/>
+              return <TableData person={person}/>
             })}
           </div>
         </TableContainer>
