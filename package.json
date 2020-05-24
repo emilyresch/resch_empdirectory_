@@ -2,6 +2,7 @@
   "name": "resch_empdirectory",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://emilyresch.github.io/resch_empdirectory_/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -50,6 +51,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/emilyresch/resch_empdirectory_/issues"
-  },
-  "homepage": "https://emilyresch.github.io/resch_empdirectory_/"
+  }
 }
