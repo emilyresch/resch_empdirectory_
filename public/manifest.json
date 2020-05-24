@@ -4,5 +4,8 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "icons": {
+    "src": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+  },
 }
