@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "./components/Header";
-import Searchbar from "./components/Searchbar";
+// import Searchbar from "./components/Searchbar";
 import TableData from "./components/TableData";
 import TableContainer from "./components/TableContainer";
 import employees from "./utils/employees.json";
