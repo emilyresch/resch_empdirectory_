@@ -8,16 +8,14 @@ import employees from "./utils/employees.json";
 
 class App extends React.Component {
   state = {
-    search: ""
+    search: "",
+    employees: employees,
+    filteredEmployees: []
   }
 
   componentDidMount() {
+    this.filterEmp()
     document.title = "Employees"
-
-    // if(!this.state.search){
-    //   console.log("hi");
-    // }
-
   }
 
   handleInputChange = event => {
@@ -26,16 +24,22 @@ class App extends React.Component {
     this.setState({ 
       search: event.target.value 
     })
+    this.filterEmp();
   }
-
-
-  render() {
-    let filtered = employees.filter(
+  filterEmp = () => {
+    let filtered = this.state.employees.filter(
       person => {
         return person.name.toLowerCase().indexOf(this.state.search) !== -1;
       });
-
+      this.setState({
+        filteredEmployees: filtered
+      });
       console.log(filtered);
+
+  }
+  
+  
+  render() {
 
     return (
       <div className="app">
@@ -56,12 +60,12 @@ class App extends React.Component {
                 />
             </div>
         </div>
-        <TableContainer>
-          <div className="container">
-            {filtered.map(person => {
+        <TableContainer employees={this.state.filteredEmployees}>
+          {/* <div className="container">
+            {filtered.filter(person => {
               return <TableData person={person}/>
             })}
-          </div>
+          </div> */}
         </TableContainer>
       </div>
     );

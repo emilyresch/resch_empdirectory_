@@ -2,10 +2,10 @@ import React from "react";
 import Table from "./Table";
 
 
-function TableContainer() {
+function TableContainer({employees}) {
     return (
         <div className="container">
-            <Table />
+            <Table employees={employees}/>
         </div>
     );
 }

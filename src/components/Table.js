@@ -1,10 +1,9 @@
 import React from "react";
 import TableHeader from "./TableHeader";
 import TableData from "./TableData";
-import employees from "../utils/employees.json";
 import "./Table.css";
 
-function Table() {
+function Table({employees}) {
     return (
         <table>
             <TableHeader />
