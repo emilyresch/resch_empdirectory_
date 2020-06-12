@@ -1,4 +1,4 @@
-# Employee Directory
+# User Directory
 
 ### Description
 
@@ -11,8 +11,8 @@ This app was created using React.
 In the future, I would like to add more search bars to be able to filter through more than just names but also emails, phone numbers, etc. I would also like to add sorting functions to the columns. 
 Currently, the data in this app is from a JSON file, but I would also like to use a "random user" API to create user rows.
 
-## Heroku link
-coming soon!
+## Github Pages link
+[User Directory](https://emilyresch.github.io/resch_empdirectory_/)
 
 
 
