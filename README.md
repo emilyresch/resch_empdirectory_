@@ -1,3 +1,33 @@
+#Employee Directory
+
+###Description
+
+This app can easily filter through long lists of employees (or students, or any kind of group member) just by beginning to type in letter's from the person's name. 
+
+This app was created using React.
+
+###Further Development
+
+In the future, I would like to add more search bars to be able to filter through more than just names but also emails, phone numbers, etc. I would also like to add sorting functions to the columns. 
+Currently, the data in this app is from a JSON file, but I would also like to use a "random user" API to create user rows.
+
+##Heroku link
+coming soon!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
